@@ -30,30 +30,30 @@ interface IconProps {
 const Footer: React.FC = () => {
 
   const footerNavigation = {
-    solutions: [
-      { name: 'Marketing', href: '#' },
-      { name: 'Analytics', href: '#' },
-      { name: 'Commerce', href: '#' },
-      { name: 'Insights', href: '#' },
-    ],
-    support: [
-      { name: 'Pricing', href: '#' },
-      { name: 'Documentation', href: '#' },
-      { name: 'Guides', href: '#' },
-      { name: 'API Status', href: '#' },
-    ],
-    company: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
-      { name: 'Partners', href: '#' },
-    ],
-    legal: [
-      { name: 'Claim', href: '#' },
-      { name: 'Privacy', href: '#' },
-      { name: 'Terms', href: '#' },
-    ],
+    // solutions: [
+    //   { name: 'Marketing', href: '#' },
+    //   { name: 'Analytics', href: '#' },
+    //   { name: 'Commerce', href: '#' },
+    //   { name: 'Insights', href: '#' },
+    // ],
+    // support: [
+    //   { name: 'Pricing', href: '#' },
+    //   { name: 'Documentation', href: '#' },
+    //   { name: 'Guides', href: '#' },
+    //   { name: 'API Status', href: '#' },
+    // ],
+    // company: [
+    //   { name: 'About', href: '#' },
+    //   { name: 'Blog', href: '#' },
+    //   { name: 'Jobs', href: '#' },
+    //   { name: 'Press', href: '#' },
+    //   { name: 'Partners', href: '#' },
+    // ],
+    // legal: [
+    //   { name: 'Claim', href: '#' },
+    //   { name: 'Privacy', href: '#' },
+    //   { name: 'Terms', href: '#' },
+    // ],
     social: [
       {
         name: 'Facebook',
@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
       // },
       {
         name: 'GitHub',
-        href: '#',
+        href: 'https://github.com/hovahyii/umpsa-iet-on-campus',
         icon: (props: any) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
