@@ -17,7 +17,7 @@ import {
 export function Popout() {
 
   return (
-    <Alert className="p-2 md:p-4">
+    <Alert className="p-2 md:p-4 overflow-hidden">
     <Dialog>
     <AlertDescription className="flex items-center space-x-2 animate-moveRightToLeft infinite">
         <span className="text-3xl">
