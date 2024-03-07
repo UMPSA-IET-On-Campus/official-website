@@ -8,7 +8,7 @@ import OurCommunity from '@/components/our_community'
 import Stats from '@/components/stat'
 import JoinUs from '@/components/join-us'
 import Link from 'next/link'
-
+import {Popout} from '@/components/popout'
 
 
 export default function Example() {
@@ -17,7 +17,12 @@ export default function Example() {
   return (
     <div className="bg-white">
       
+      <Popout />
+
+
       <Header />
+
+
 
       <main className="isolate" id="about">
         {/* Hero section */}
@@ -51,7 +56,6 @@ export default function Example() {
           <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
         </div>
 
-      
 
        <OurCommunity />
 
